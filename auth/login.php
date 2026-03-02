@@ -23,7 +23,7 @@ echo "Invalid Login";
 ?>
 
 <form method="post">
-    <input type="email">
+    <input type="email" name="email">
     <input type="password" name="password">
     <button>Login</button>
 </form>
