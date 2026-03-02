@@ -1,6 +1,17 @@
-/app/config.local.php
+# Local config files (contain passwords)
+app/config.local.php
 .env
+
+# Dependencies
 /vendor/
 node_modules/
+
+# OS junk files
 .DS_Store
 Thumbs.db
+
+# XAMPP temporary files
+*.log
+
+# VS Code settings (optional)
+.vscode/
